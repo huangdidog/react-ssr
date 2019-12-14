@@ -2,7 +2,7 @@ const path = require('path')
 // 服务端的webpack
 module.exports = {
     mode: "development",
-    entry: "./client/index.js",
+    entry: "./client/Index.js",
     output: {
         filename: "bundle.js",
         path: path.resolve(__dirname, 'public')
